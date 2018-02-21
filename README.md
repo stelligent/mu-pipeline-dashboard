@@ -1,5 +1,5 @@
 # mu-pipeline-dashboard
-[mu](https://github.com/stelligent/mu) extension for Stelligent's [Pipeline Dashboard](hhttps://github.com/stelligent/pipeline-dashboard). For more information on how to use mu, see the mu [QuickStart](https://github.com/stelligent/mu/wiki/Quickstart).
+[mu](https://github.com/stelligent/mu) extension for Stelligent's [Pipeline Dashboard](https://github.com/stelligent/pipeline-dashboard). For more information on how to use mu, see the mu [QuickStart](https://github.com/stelligent/mu/wiki/Quickstart).
 
 Sample usage: 
 
