@@ -1,14 +1,7 @@
-Parameters:
-  TemplateURL:
-    Type: String
-    Description: S3 URL for the CloudFormation template
-    Default: https://s3.amazonaws.com/pipeline-dashboard-us-east-1/template.yml
-
-  PipelineDashboardStack:
-    Type: AWS::CloudFormation::Stack
+AWSTemplateFormatVersion: '2010-09-09'
+Description: AWS CloudFormation Master Template
+Resources:
+  PipelineDashboard:
     Properties:
-      TemplateURL:
-        Fn::Join:
-        - ''
-        - - Ref: TemplateURL
-      TimeoutInMinutes: '60'
+      TemplateURL: https://s3.amazonaws.com/pipeline-dashboard-us-east-1/template.yml
+    Type: AWS::CloudFormation::Stack
